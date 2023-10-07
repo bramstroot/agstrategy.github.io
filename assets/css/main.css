@@ -122,6 +122,9 @@ a:hover
     {
         font-size: 8px;
     }
+    .size-hide {
+        display: none;
+    }
 }
 
 @media (max-width:500px)
@@ -145,7 +148,7 @@ img.intro {
 }
 
 .img_parent{ 
-    width:80%; height:600px; display:flex; align-items: center;
+    width:90%; height:600px; display:flex; align-items: center;
 }
 
 .square {
@@ -163,7 +166,6 @@ img.intro {
 }
 
 .img_parent img{ width:100%;}
-
 
 /** 2. Preloader
 *******************************************************************/
