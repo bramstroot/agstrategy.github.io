@@ -116,57 +116,6 @@ a:hover
     color: #111;
 }
 
-@media (max-width:600px)
-{
-    html
-    {
-        font-size: 8px;
-    }
-    .size-hide {
-        display: none;
-    }
-}
-
-@media (max-width:500px)
-{
-    html
-    {
-        font-size: 7px;
-    }
-}
-
-img.intro {
-    object-fit: fill;
-    margin-bottom: 2em;
-    max-height: 65px;
-}
-
-#intro{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-}
-
-.img_parent{ 
-    width:90%; height:600px; display:flex; align-items: center;
-}
-
-.square {
-  flex: 1;
-  padding: 10px; /* Add padding for spacing between squares */
-  box-sizing: border-box; /* Ensure padding is included in the width */
-  text-align: center; /* Center align content within squares */
-}
-
-.square img {
-  max-width: 100%;
-  height: auto;
-  display: block; /* Remove extra space below the image */
-  margin: 0 auto; /* Center the image horizontally */
-}
-
-.img_parent img{ width:100%;}
 
 /** 2. Preloader
 *******************************************************************/
@@ -627,7 +576,7 @@ section:last-of-type
 
 section .container-fluid
 {
-    max-width: 980px;
+    max-width: auto;
 }
 
 section .headline
@@ -888,6 +837,58 @@ section .headline
                 transform: translate(0);
     }
 }
+
+@media (max-width:750px)
+{
+    html
+    {
+        font-size: 8px;
+    }
+    .size-hide {
+        display: none;
+    }
+}
+
+@media (max-width:500px)
+{
+    html
+    {
+        font-size: 7px;
+    }
+}
+
+img.intro {
+    object-fit: fill;
+    margin-bottom: 2em;
+    max-height: 65px;
+}
+
+#intro{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.img_parent{ 
+    width:90%; height:600px; display:flex; align-items: center;
+}
+
+.square {
+  flex: 1;
+  padding: 10px; /* Add padding for spacing between squares */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  text-align: center; /* Center align content within squares */
+}
+
+.square img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Remove extra space below the image */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.img_parent img{ width:100%;}
 
 
 
